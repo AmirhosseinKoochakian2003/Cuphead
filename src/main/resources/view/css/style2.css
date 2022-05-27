@@ -1,0 +1,36 @@
+Button{
+    -fx-pref-width: 200;
+    -fx-pref-height: 20;
+    -fx-effect: dropshadow( one-pass-box , #1a0bf1, 8 , 0.0 , 2 , 0 );
+    -fx-font-style: italic;
+}
+Text{
+    -fx-font-size: 50;
+}
+Label{
+    -fx-font-weight: bold;
+    -fx-effect: innershadow( three-pass-box , rgba(232, 12, 12, 0.7), 6, 0.0 , 0 , 2 );
+}
+.menuName1 {
+    -fx-font-family: Ebrima;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( one-pass-box , #fc0707, 8 , 0.0 , 2 , 0 );
+}
+.menuName2 {
+    -fx-font-family: Onyx;
+    -fx-effect: dropshadow( one-pass-box , #1a0bf1, 8 , 0.0 , 2 , 0 );
+}
+TextField{
+    -fx-background-color: #938e8e;
+    -fx-font-style: italic;
+    -fx-arc-height: 20;
+    -fx-arc-width: 20;
+    -fx-border-color: black;
+    -fx-text-fill: blue;
+}
+.BackGround {
+    -fx-background-image: url("../pictures/menu2.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size: 720 480;
+}

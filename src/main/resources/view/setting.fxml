@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.Setting"
+            prefHeight="400.0" prefWidth="600.0"
+            stylesheets="@css/style2.css">
+
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <Text text="setting" textAlignment="CENTER" styleClass="menuName1"/>
+            <Button text="Level 1" alignment="CENTER" onMouseClicked="#level1"/>
+            <Button text="Level 2" alignment="CENTER" onMouseClicked="#level2"/>
+            <Button text="Level 3" alignment="CENTER" onMouseClicked="#level3"/>
+            <Button text="mute" alignment="CENTER" onMouseClicked="#mute"/>
+            <Button text="unmute" alignment="CENTER" onMouseClicked="#unmute"/>
+        </VBox>
+    </center>
+
+</BorderPane>

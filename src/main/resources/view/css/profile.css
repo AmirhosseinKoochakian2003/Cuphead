@@ -1,0 +1,19 @@
+Button{
+    -fx-pref-width: 200;
+    -fx-pref-height: 20;
+    -fx-effect: dropshadow( one-pass-box , #f10b0b, 8 , 0.0 , 2 , 0 );
+    -fx-font-style: italic;
+}
+Text{
+    -fx-font-size: 50;
+}
+.name{
+    -fx-effect: dropshadow( one-pass-box , #af1b1b, 8 , 0.0 , 2 , 0 );
+}
+.BackGround {
+    -fx-background-image: url("../pictures/menu2.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size: 720 480;
+}
+

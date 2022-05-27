@@ -1,0 +1,9 @@
+#gridPane{
+    -fx-border-color: gold;
+    -fx-border-style: dotted ;
+}
+.name {
+    -fx-font-size: 40;
+    -fx-effect: dropshadow( one-pass-box , #f1e60b, 8 , 0.0 , 2 , 0 );
+}
+

@@ -1,0 +1,24 @@
+TextField{
+    -fx-pref-width: 200;
+    -fx-pref-height: 30;
+    -fx-background-color: #e7b076;
+}
+Button{
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+Text{
+    -fx-font-size: 50;
+    -fx-effect: innershadow( three-pass-box , rgba(232, 12, 12, 0.7), 6, 0.0 , 0 , 2 );
+    -fx-background-color: #6a006e;
+}
+
+.menuName1 {
+    -fx-font-family: Gabriola;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( one-pass-box , #fc0707, 8 , 0.0 , 2 , 0 );
+}
+.menuName2 {
+    -fx-font-family: SimSun;
+    -fx-effect: dropshadow( one-pass-box , #1a0bf1, 8 , 0.0 , 2 , 0 );
+}
