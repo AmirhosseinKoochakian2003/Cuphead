@@ -1,2 +1,2 @@
-# cuphead
-amirhossein koochakian 400105199
+# Cuphead
+In this project i implemented cuphead game using jave and javefx.
